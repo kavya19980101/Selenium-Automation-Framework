@@ -29,5 +29,10 @@ public class TestScripts01 {
 	{
 		System.out.println("My fifth testcase");
 	}
+	
+	public void TestCase04()
+	{
+		System.out.println("My sixth testcase");
+	}
 
 }
