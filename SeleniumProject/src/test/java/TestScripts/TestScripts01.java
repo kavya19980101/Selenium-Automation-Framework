@@ -8,10 +8,10 @@ public class TestScripts01 {
 	public void TC01()
 	{
 		
-		String url=System.getProperty("url");
-		String browser=System.getProperty("browser");
-		String usn=System.getProperty("usn");
-		String pwd=System.getProperty("pwd");
+		String url=System.getProperty("url", "https://www.google.com");
+		String browser=System.getProperty("browser","chrome");
+		String usn=System.getProperty("usn","kavya");
+		String pwd=System.getProperty("pwd","k");
 		System.out.println(url);
 		System.out.println(browser);
 		System.out.println(usn);
