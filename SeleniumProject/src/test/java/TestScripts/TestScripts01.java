@@ -20,7 +20,7 @@ public class TestScripts01 {
 	}
 	
 	@Test
-	public void TC02()
+	public void TestCase02()
 	{
 		System.out.println("My Second testcase");
 	}

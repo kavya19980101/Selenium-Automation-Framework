@@ -76,9 +76,13 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.38</version>
+</dependency>
+
    </dependencies>
-    <properties>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
-</properties>
+    
 </project>
