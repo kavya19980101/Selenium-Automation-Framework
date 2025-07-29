@@ -4,9 +4,7 @@
   <artifactId>SeleniumProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>SeleniumProject</name>
-  <profiles>
-  <profile>
-  <id>rt</id>
+
   <build>
   <plugins>
     
@@ -23,27 +21,8 @@
    
 </plugins>
   </build>
-  </profile>
-  <profile>
-  <id>s</id>
-  <build>
-  <plugins>
-    
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.5.3</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng1.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-   
-</plugins>
-  </build>
-  </profile>
-  </profiles>
+  
+
  
  
   
